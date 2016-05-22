@@ -6,6 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('unresolved');
+  this.route('resolved');
+  this.route('rejected');
 });
 
 export default Router;
