@@ -1,0 +1,6 @@
+<div class="pet-list">
+{{#each pets as |pet|}}
+  <button {{action "removePet" pet}}>Remove {{pet.name}}</button>
+{{/each}}
+</div>
+
