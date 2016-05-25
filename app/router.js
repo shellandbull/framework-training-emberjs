@@ -18,6 +18,10 @@ Router.map(function() {
     });
   });
   this.route('action-demos');
+  this.route('bubbled-actions', function() {
+    this.route('child');
+  });
+  this.route('rooms');
 });
 
 export default Router;

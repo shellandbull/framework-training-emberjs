@@ -4,7 +4,7 @@ import { module, test } from 'qunit';
 module('Unit | Helper | darrens helper');
 
 // Replace this with your real tests.
-test('it works', function(assert) {
+test('Behaves the way darrens test helper is meant to behave', function(assert) {
   let result = darrensHelper([42]);
-  assert.ok(result);
+  assert.equal(result, '', 'it returns an empty string');
 });
