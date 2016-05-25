@@ -20,8 +20,9 @@ test('Visiting /rooms, looking at the header title', function(assert) {
 
 test('When I visit Rooms, I can see a list of rooms', function(assert) {
   visit('/rooms');
-
+  const theNumberOfRooms = 6;
+  server.createList('room', theNumberOfRooms);
   andThen(() => {
-    assert.equal(find('li.room').length, 6, 'shows all the rooms coming from the server');
+    assert.equal(find('li.room').length, theNumberOfRooms, 'shows all the rooms coming from the server');
   });
 });

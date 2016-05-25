@@ -1,2 +1,7 @@
 <h1 class="header">Rooms</h1>
+<ul>
+{{#each model as |room|}}
+  <li class="room">{{room.name}}</li>
+{{/each}}
+</ul>
 {{outlet}}
