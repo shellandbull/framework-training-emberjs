@@ -1,0 +1,10 @@
+
+<h1>{{model.name}}</h1>
+{{#if isLoading}}
+  <h1>I'm loading now peeps!</h1>
+{{else}}
+  <h1>Not Loading just yet</h1>
+{{/if}}
+<button onclick={{action "didClick"}}>
+  Click Me!
+</button>

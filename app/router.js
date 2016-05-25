@@ -23,6 +23,7 @@ Router.map(function() {
   });
   this.route('rooms');
   this.route('learning-cps');
+  this.route('learn-components');
 });
 
 export default Router;
