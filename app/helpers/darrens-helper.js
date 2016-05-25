@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-export function darrensHelper(params, hash) {
+export function darrensHelper() {
   return '';
 }
 
