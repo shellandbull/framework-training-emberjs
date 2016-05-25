@@ -22,6 +22,7 @@ Router.map(function() {
     this.route('child');
   });
   this.route('rooms');
+  this.route('learning-cps');
 });
 
 export default Router;

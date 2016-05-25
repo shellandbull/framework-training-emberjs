@@ -1,0 +1,20 @@
+<div class="cps-container">
+  <h1>Mario weights {{fullWeight}}</h1>
+</div>
+
+<h1>Want to change marios weight? Go for it!</h1>
+{{input value=model.weight}}
+<br>
+<h1>Change his height too - which is {{fullHeight}}</h1>
+{{input value=fullHeight}}
+<br>
+
+<div class="array-container">
+  <h2>There's currently {{arrayCount}} in the array property</h2>
+  <h2>Here's another way to show all the names {{namesList}}</h2>
+  <ul>
+    {{#each array as |item|}}
+      <li>{{item.name}} in the house!</li>
+    {{/each}}
+  </ul>
+</div>
