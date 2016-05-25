@@ -1,0 +1,15 @@
+<h1>Mario weights {{mario.weight}}</h1>
+<h1>and he's also {{mario.height}} tall!</h1>
+<h1>Iterating over a list of peeps</h1>
+<ul>
+  {{#each iterable as |peep|}}
+
+    <li>
+      {{#if (is-mario peep)}}
+        Mario {{peep.lastName}}
+      {{else}}
+        {{peep.lastName}}
+      {{/if}}
+    </li>
+  {{/each}}
+</ul>

@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:rejected', 'Unit | Route | rejected', {
+moduleFor('route:github/users', 'Unit | Route | github/users', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });

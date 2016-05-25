@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:unresolved', 'Unit | Route | unresolved', {
+moduleFor('route:farhad-demo', 'Unit | Route | farhad demo', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });

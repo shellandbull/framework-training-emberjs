@@ -1,0 +1,18 @@
+
+.nav-link {
+  padding: 20px;
+  background-image: linear-gradient(-90deg, #FDE74C, #5BC0EB 99%);
+  border-radius: 3px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.active {
+  color: red;
+  border: 3px solid red;
+}
+
+.action-demos {
+  padding: 30px;
+}

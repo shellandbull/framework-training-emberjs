@@ -1,3 +1,10 @@
-<h2 id="title">Welcome to Ember</h2>
-
+<h2 id="title">Welcome to a demo app I made for you</h2>
+<div class="peeps-container">
+  {{link-to 'Never resolving Promise' 'unresolved' class="nav-link"}}
+  {{link-to 'Resolved Promise' 'resolved' class="nav-link"}}
+  {{link-to 'Rejected/Failed Promise' 'rejected' class="nav-link"}}
+  {{link-to 'HTMLBars examples' 'htmlbars-example' class="nav-link"}}
+  {{link-to 'Github user - @mariogintili' 'github.users.show' 'mariogintili' class="nav-link"}}
+  {{link-to 'Actions demo' 'action-demos' class="nav-link"}}
+</div>
 {{outlet}}
